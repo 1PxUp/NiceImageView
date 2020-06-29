@@ -1,5 +1,10 @@
 # NiceImageView
 
+### 改动说明
+
+基于[SheHuan/NiceImageView v1.0.5](https://github.com/SheHuan/NiceImageView/tree/1.0.5), 修复[issue #22: 9.0及以上系统图片一次圆一次方](https://github.com/SheHuan/NiceImageView/issues/22)的问题。
+
+
 ### 效果预览
 
 |![](images/r1.PNG)|![](images/r2.PNG)|![](images/r3.PNG)|
@@ -26,7 +31,7 @@ allprojects {
 **Step 2. 添加项目依赖**
 ``` gradle
 dependencies {
-    implementation 'com.github.SheHuan:NiceImageView:1.0.5'
+    implementation 'com.github.1PxUp:1PxUp.github.io:1.0.5.01'
 }
 ```
 **Step 3. 在布局文件中添加CornerLabelView**
